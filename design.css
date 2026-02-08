@@ -49,3 +49,26 @@ body {
 #jumpMenu a:hover {
     text-decoration: underline;
 }
+/* =========================
+   HEADER (TOP BAR)
+========================= */
+
+#mainHeader {
+    position: fixed;
+    top: 0;
+    left: 15%;
+
+    width: 85%;
+    height: 70px;
+
+    background-color: red;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 40px;
+
+    z-index: 1000;
+}
