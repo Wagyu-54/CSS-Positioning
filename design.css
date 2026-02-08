@@ -12,3 +12,40 @@ body {
     background-color: #f4f4f4;
 }
 
+
+/* =========================
+   JUMP MENU (LEFT SIDE)
+========================= */
+
+#jumpMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 15%;
+    min-width: 180px;
+    height: 100vh;
+
+    background-color: #f2b705;
+    padding: 20px;
+
+    overflow-y: auto;
+}
+
+#jumpMenu h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#jumpMenu a {
+    display: block;
+    margin: 8px 0;
+
+    text-decoration: none;
+    color: blue;
+    font-size: 15px;
+}
+
+#jumpMenu a:hover {
+    text-decoration: underline;
+}
