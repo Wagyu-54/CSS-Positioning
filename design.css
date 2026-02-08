@@ -72,3 +72,25 @@ body {
 
     z-index: 1000;
 }
+/* LOGO */
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/* NAV BUTTONS */
+.topNav button {
+    background-color: blue;
+    color: white;
+
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+
+    cursor: pointer;
+}
+
+.topNav button:hover {
+    background-color: darkblue;
+}
